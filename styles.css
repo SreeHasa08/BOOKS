@@ -105,4 +105,60 @@ footer p {
 .book {
     width: 16rem;
     height: 20rem;
+}/* Mobile styles */
+.container {
+    width: 100%;
+}
+
+/* Tablet styles */
+@media screen and (min-width: 600px) {
+    .container {
+        max-width: 600px;
+        margin: 0 auto; /* Center the container */
+    }
+
+    /* Adjust header styles */
+    header h1 {
+        font-size: 3em;
+    }
+
+    /* Adjust navigation styles */
+    nav ul li a {
+        font-size: 1.5em;
+    }
+
+    /* Adjust section styles */
+    section h2 {
+        font-size: 2.5em;
+    }
+
+    section p {
+        font-size: 1.2em;
+    }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 900px) {
+    .container {
+        max-width: 900px;
+    }
+
+    /* Adjust header styles */
+    header h1 {
+        font-size: 3.5em;
+    }
+
+    /* Adjust navigation styles */
+    nav ul li a {
+        font-size: 1.8em;
+    }
+
+    /* Adjust section styles */
+    section h2 {
+        font-size: 3em;
+    }
+
+    section p {
+        font-size: 1.3em;
+    }
 }
